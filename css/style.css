@@ -1,0 +1,17 @@
+.xyz{
+    color: green;
+    font-size: 40px;
+  }
+  .xyz2{
+    color: red;
+    font-size: 20px;
+  }
+
+  h1{
+    color: yellow;
+    font-size: 70px;
+    background-color: black;
+  }
+  *{
+    background-color: black;
+  }

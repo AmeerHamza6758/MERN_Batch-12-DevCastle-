@@ -1,0 +1,24 @@
+.parent-section {
+  font-size: 20px;
+  font-weight: 300;
+  /* font-style: oblique; */
+  font-family:monospace;
+  color: black;
+  background-color: brown;
+  /* width: 400px;
+  height: 400px; */
+  /* max-width: 200px; */
+  /* height:80vh; */
+  /* overflow: scroll; */
+  /* margin: 40px; */
+  padding: 20px;
+  /* padding-top: 20px; */
+  /* padding-left: 40px; */
+  /* padding: 20px 0px 20px 50px; */
+  /* text-align: center; */
+  border: 10px double black;  
+}
+
+* {
+  margin: 0px;
+}
