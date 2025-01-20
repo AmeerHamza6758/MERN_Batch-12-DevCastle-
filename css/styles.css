@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+}
+
 .first-section {
   font-size: 20px;
   font-weight: 300;
@@ -105,8 +109,7 @@
   background-color: orange;
 }
 
-
-.navbar-section{
+.navbar-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -115,38 +118,85 @@
 }
 .nav-items {
   display: flex;
-  flex-direction: column-reverse;
+  /* flex-direction: column-reverse; */
   gap: 20px;
   align-items: center;
   list-style: none;
 }
 
-.nav-items > li>a {
+.nav-items > li > a {
   text-decoration: none;
   color: white;
   font-size: 25px;
   font-weight: 700;
 }
-.nav-items > li>a:hover{
+.nav-items > li > a:hover {
   /* color: darkred; */
   border-bottom: 10px solid white;
 }
 
-.button-section{
+.button-section {
   display: flex;
   gap: 20px;
 }
-.button-section>p{
+.button-section > p {
   background-color: aqua;
   padding: 10px 15px;
   border-radius: 10px;
   cursor: pointer;
 }
-.button-section>p:hover{
+.button-section > p:hover {
   color: white;
   background-color: black;
 }
 
-* {
-  margin: 0px;
+/* Index1 properties for positions */
+.head-section {
+  position: relative;
+  height: 500px;
+  background-color: rgb(57, 57, 57);
+}
+.typo-section {
+  position: relative;
+  /* left: 100px; */
+  /* height: 100px; */
+  top: 100px;
+  /* bottom: 100px; */
+  color: white;
+}
+.image1 {
+  position: absolute;
+  top: 0px;
+  /* bottom: 100px; */
+  /* right: 200px; */
+  /* left: 200px; */
+}
+.img-1 {
+  position: fixed;
+  top: 0px;
+  left: 300px;
+}
+
+.img-2-section {
+  height: 300px;
+  background-color: aqua;
+  width: 100%;
+  clear: both;
+}
+.xyz {
+  width: 50%;
+  background-color: red !important;
+  height: inherit;
+  float: left;
+}
+.img-2 {
+  height: 200px;
+  width: 300px;
+  float: right;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  grid-gap: 20px;
+  background-color: gray;
 }
