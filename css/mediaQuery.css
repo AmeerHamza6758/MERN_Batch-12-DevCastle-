@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+}
+
+.parent-section {
+  background-color: rgb(208, 89, 89);
+}
+
+.description {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+.image-section {
+  width: 300px;
+  height: 200px;
+}
+
+/* media Query */
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .parent-section {
+    background-color: blue;
+  }
+
+  .description {
+    color: black;
+    font-size: 15px;
+  }
+
+  .image-section {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+/* tablets */
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  .parent-section {
+    background-color: yellow;
+  }
+
+  .description {
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .image-section {
+    width: 100px;
+    height: 100px;
+  }
+}
+/* 320-480 mobile
+481-768 tables
+769-1024 laptops
+1025-1200 desktops
+1200-xl */
+
+.button {
+  margin: 30px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 1s ease;
+}
+.button:hover {
+  background-color: red;
+  color: black;
+}
+.button::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+.animated {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animated-text {
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+  margin-top: 100px;
+  animation: animatedText 2s linear infinite alternate;
+}
+@keyframes animatedText {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+}
