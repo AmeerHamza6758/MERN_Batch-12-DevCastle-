@@ -7,11 +7,12 @@
     font-size: 20px;
   }
 
-  h1{
+  /* h1{
     color: yellow;
     font-size: 70px;
     background-color: black;
-  }
-  *{
-    background-color: black;
-  }
+  } */
+
+.test-line-height{
+  line-height: 100px;
+}
