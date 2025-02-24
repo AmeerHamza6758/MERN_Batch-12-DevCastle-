@@ -29,9 +29,31 @@ let whileNum = 0;
 
 // Print table using for loop
 
-const number = 18;
-let startnum = 1;
-for (startnum; startnum <= 20; startnum++) {
-  let totalMul = number * startnum;
-  console.log(`${number}*${startnum}=${totalMul}`);
+// const number = 18;
+// let startnum = 1;
+// for (startnum; startnum <= 10; startnum++) {
+//   let totalMul = number * startnum;
+//   console.log(`${number}*${startnum}=${totalMul}`);
+// }
+
+// For in loop
+
+const employee = {
+  name: "Ameer hamza",
+  email: "ameer@gmail.com",
+  age: 30,
+  phone: "30493865",
+  salary: "10000",
+  address: "123 street, Ryk",
+};
+
+for (let key in employee) {
+  console.log(`${key} == ${employee[key]}`);
+}
+
+// For of loop
+const schoolSalary = [1000, 2000, 4000, 7000, 3000, 1400];
+
+for (let key of schoolSalary) {
+  // console.log(key * 2);
 }
